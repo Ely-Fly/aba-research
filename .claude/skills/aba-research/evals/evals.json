@@ -1,0 +1,50 @@
+{
+  "skill_name": "aba-research",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Find me recent studies on AAC for nonverbal toddlers with autism",
+      "expected_output": "A clean HTML file with up to 5 peer-reviewed results about AAC for nonverbal toddlers, sourced from PubMed/Autism Speaks, with colored topic tags and clickable titles.",
+      "files": [],
+      "assertions": [
+        {"name": "html_file_created", "description": "An HTML file exists in the outputs directory"},
+        {"name": "max_five_results", "description": "The HTML contains no more than 5 result cards"},
+        {"name": "has_report_header", "description": "The HTML has a header with report title and date generated"},
+        {"name": "titles_are_links", "description": "Result titles are wrapped in clickable <a href> links"},
+        {"name": "has_topic_tags", "description": "At least one colored topic tag/badge is present in the HTML"},
+        {"name": "no_blocked_sources", "description": "No citations from WebMD, Healthline, Psychology Today, or parent blogs"},
+        {"name": "aac_content_present", "description": "At least one result explicitly addresses AAC (Augmentative and Alternative Communication)"}
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "What are the latest BACB ethics updates I should know about as a supervisor?",
+      "expected_output": "A clean HTML file with up to 5 results about BACB ethics/supervision updates, with at least one result citing BACB.com, colored tags, and clickable titles.",
+      "files": [],
+      "assertions": [
+        {"name": "html_file_created", "description": "An HTML file exists in the outputs directory"},
+        {"name": "max_five_results", "description": "The HTML contains no more than 5 result cards"},
+        {"name": "has_report_header", "description": "The HTML has a header with report title and date generated"},
+        {"name": "titles_are_links", "description": "Result titles are wrapped in clickable <a href> links"},
+        {"name": "has_topic_tags", "description": "At least one colored topic tag/badge is present in the HTML"},
+        {"name": "no_blocked_sources", "description": "No citations from WebMD, Healthline, Psychology Today, or parent blogs"},
+        {"name": "bacb_source_referenced", "description": "BACB.com appears as a source for at least one result"}
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Any new research on early intensive behavioral intervention outcomes for kids under 4?",
+      "expected_output": "A clean HTML file with up to 5 peer-reviewed results about EIBI outcomes for children under 4, sourced from PubMed, with Early Intervention tags and clickable titles.",
+      "files": [],
+      "assertions": [
+        {"name": "html_file_created", "description": "An HTML file exists in the outputs directory"},
+        {"name": "max_five_results", "description": "The HTML contains no more than 5 result cards"},
+        {"name": "has_report_header", "description": "The HTML has a header with report title and date generated"},
+        {"name": "titles_are_links", "description": "Result titles are wrapped in clickable <a href> links"},
+        {"name": "has_topic_tags", "description": "At least one colored topic tag/badge is present in the HTML"},
+        {"name": "no_blocked_sources", "description": "No citations from WebMD, Healthline, Psychology Today, or parent blogs"},
+        {"name": "early_intervention_content", "description": "Results address early intensive behavioral intervention or outcomes for children under 4"}
+      ]
+    }
+  ]
+}
