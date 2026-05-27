@@ -8,6 +8,10 @@ A Claude Code skill for BCBAs and ABA practitioners to quickly surface the lates
 
 When you ask for research on any ABA or autism-related topic, the skill searches authoritative sources, filters for recency and credibility, and writes a polished HTML report file directly to your working directory. No synthesis paragraphs, no fluff — just the top 5 results, ready to share with colleagues.
 
+## Why use it
+
+Clinical literature moves fast. This skill cuts through the noise by enforcing strict source and recency standards — so every result you get is peer-reviewed, actionable, and up to date. Designed specifically for BCBAs who need reliable information quickly, without wading through blogs or outdated studies.
+
 ---
 
 ## What's included / excluded
@@ -62,8 +66,3 @@ aba-research-<topic>-<YYYY-MM-DD>.html
 
 Each report contains up to 5 result cards. Every card includes a clickable title, source and date, a plain-language 2-sentence clinical summary, and a color-coded topic badge (Early Intervention, AAC, Ethics, Medicaid, Medication, Verbal Behavior, Supervision). The file is self-contained, print-ready, and suitable for sharing with colleagues.
 
----
-
-## Why use it
-
-Clinical literature moves fast. This skill cuts through the noise by enforcing strict source and recency standards — so every result you get is peer-reviewed, actionable, and up to date. Designed specifically for BCBAs who need reliable information quickly, without wading through blogs or outdated studies.
