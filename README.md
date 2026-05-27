@@ -1,4 +1,4 @@
-# aba-research
+# ABA Research
 
 A Claude Code skill for BCBAs and ABA practitioners to quickly surface the latest peer-reviewed research on autism and ABA topics — and deliver it as a clean, shareable HTML report.
 
