@@ -43,6 +43,22 @@ Clinical literature moves fast. This skill cuts through the noise by enforcing s
 
 ---
 
+## Using with Claude AI (claude.ai)
+
+No installation needed — just upload the skill file directly into any Claude AI conversation:
+
+1. Download the skill file: [SKILL.md](https://raw.githubusercontent.com/Ely-Fly/aba-research/main/.claude/skills/aba-research/SKILL.md) (right-click → Save As)
+2. Open [claude.ai](https://claude.ai) and start a new chat
+3. Upload the file and ask your question:
+
+```
+Using the instructions in the uploaded SKILL.md, find me recent studies on AAC for nonverbal toddlers with autism
+```
+
+Claude will follow the skill's source and recency rules and return the results as an HTML code block — copy it, save it as a `.html` file, and open it in your browser.
+
+---
+
 ## How to use
 
 Just ask naturally — the skill triggers automatically on any ABA/autism research request:
