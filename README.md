@@ -29,36 +29,6 @@ Clinical literature moves fast. This skill cuts through the noise by enforcing s
 
 ---
 
-## How to install
-
-1. Download `aba-research.skill` from the [Releases](../../releases) page (or clone this repo)
-2. In Claude Code, run:
-   ```
-   /plugin install path/to/aba-research.skill
-   ```
-3. Reload plugins:
-   ```
-   /reload-plugins
-   ```
-
----
-
-## Using with Claude AI (claude.ai)
-
-No installation needed — just upload the skill file directly into any Claude AI conversation:
-
-1. Download the skill file: [SKILL.md](https://raw.githubusercontent.com/Ely-Fly/aba-research/main/.claude/skills/aba-research/SKILL.md) (right-click → Save As)
-2. Open [claude.ai](https://claude.ai) and start a new chat
-3. Upload the file and ask your question:
-
-```
-Using the instructions in the uploaded SKILL.md, find me recent studies on AAC for nonverbal toddlers with autism
-```
-
-Claude will follow the skill's source and recency rules and return the results as an HTML code block — copy it, save it as a `.html` file, and open it in your browser.
-
----
-
 ## How to use
 
 Just ask naturally — the skill triggers automatically on any ABA/autism research request:
@@ -82,3 +52,28 @@ aba-research-<topic>-<YYYY-MM-DD>.html
 
 Each report contains up to 5 result cards. Every card includes a clickable title, source and date, a plain-language 2-sentence clinical summary, and a color-coded topic badge (Early Intervention, AAC, Ethics, Medicaid, Medication, Verbal Behavior, Supervision). The file is self-contained, print-ready, and suitable for sharing with colleagues.
 
+---
+
+## How to install (Claude Code)
+
+1. Clone this repo and open Claude Code from inside the folder:
+   ```
+   git clone https://github.com/Ely-Fly/aba-research.git
+   ```
+2. Run `/reload-plugins` in Claude Code
+
+---
+
+## Using with Claude AI (claude.ai)
+
+No installation needed — just upload the skill file directly into any Claude AI conversation:
+
+1. Download the skill file: [SKILL.md](https://raw.githubusercontent.com/Ely-Fly/aba-research/main/.claude/skills/aba-research/SKILL.md) (right-click → Save As)
+2. Open [claude.ai](https://claude.ai) and start a new chat
+3. Upload the file and ask your question:
+
+```
+Using the instructions in the uploaded SKILL.md, find me recent studies on AAC for nonverbal toddlers with autism
+```
+
+Claude will follow the skill's source and recency rules and return the results as an HTML code block — copy it, save it as a `.html` file, and open it in your browser.
