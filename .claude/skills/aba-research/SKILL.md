@@ -40,7 +40,7 @@ Only include results published within the last 3 years. If you cannot confirm th
    - Source name
    - Publication date
    - A 2-sentence plain-language summary focused on clinical relevance
-   - One topic tag from: Early Intervention, AAC, Ethics, Medicaid, Medication, Verbal Behavior, Supervision, Other
+   - One topic tag from: Early Intervention, AAC, Ethics, Medicaid, Medication, Verbal Behavior, Supervision, Therapy, Regulation, Other
 
 ## Output
 
@@ -80,6 +80,8 @@ The file must be self-contained (no external CSS/JS). Clean, professional, print
     .tag-medication         { background: #f3e5f5; color: #6a1b9a; }
     .tag-verbal-behavior    { background: #e0f7fa; color: #006064; }
     .tag-supervision        { background: #fbe9e7; color: #bf360c; }
+    .tag-therapy            { background: #e8eaf6; color: #283593; }
+    .tag-regulation         { background: #f9fbe7; color: #558b2f; }
     .tag-other              { background: #f5f5f5; color: #424242; }
     @media print { body { background: white; } .card { box-shadow: none; border: 1px solid #ccc; } }
   </style>
@@ -112,6 +114,8 @@ The file must be self-contained (no external CSS/JS). Clean, professional, print
 | Medication | `medication` |
 | Verbal Behavior | `verbal-behavior` |
 | Supervision | `supervision` |
+| Therapy | `therapy` |
+| Regulation | `regulation` |
 | Other | `other` |
 
 ---
